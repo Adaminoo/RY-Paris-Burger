@@ -1,6 +1,7 @@
 body {
     margin:0;
     padding:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bannertop {
@@ -22,7 +23,6 @@ body {
     text-decoration: none;
     list-style: none;
     color:black;
-    font-family:Arial, Helvetica, sans-serif;
     font-size:20px;
 }
 
@@ -31,4 +31,62 @@ body {
     height:700px;
     object-fit:cover;
     object-position: 100% 0%;
+}
+
+.fig {
+    position:relative;
+}
+
+.bcap {
+    background-color: white;
+    position:absolute;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:50px;
+    transform: translate(-50%, -10%);
+    top:75%;
+    left:50%;
+}
+
+.edcat {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.edpara {
+    display:inline-block;
+    text-align:left;
+    margin:0 auto;
+    width:63%;
+    
+}
+
+.edtitle {
+    font-weight: bold;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.edtext {
+    font-size:25px;
+    line-height: 35px;
+}
+
+.edimages {
+    display:flex;
+    margin:auto;
+}
+
+.edim {
+    object-fit: cover;
+    width:350px;
+    height:250px;
+}
+
+.edcap {
+    font-size:20px;
+    text-align: center;
+    margin: 15px;
 }
