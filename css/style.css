@@ -146,3 +146,45 @@ body {
     padding:10px;
 }
 
+.wte {
+    display:flex;
+    flex-direction: column;
+    padding-top:20px;
+}
+
+.wtetext {
+    display:inline-block;
+    text-align:left;
+    margin:0 auto;
+    width:63%;
+}
+
+.wtetitle {
+    font-weight: bold;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.wtepara {
+    font-size:25px;
+    line-height:36px;
+    margin-bottom:50px;
+}
+
+.wteimages {
+    display:flex;
+    margin:auto;
+}
+
+.wteim {
+    object-fit: cover;
+    width:350px;
+    height:250px;
+    padding: 0 15px;
+}
+
+.wtecap {
+    font-size:20px;
+    text-align: center;
+    margin: 15px;
+}
