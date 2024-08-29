@@ -101,14 +101,16 @@ body {
     display:flex;
     flex-direction: column;
     background-color: #dadfea;
-    margin:0 auto;
+    padding-top:20px;
+    margin:auto;
     width:65%;
-    padding:60px;
 }
 
 .hrtext {
     display:inline-block;
     text-align:left;
+    margin:0 auto;
+    width:63%;
 }
 
 .hrtitle {
@@ -131,19 +133,16 @@ body {
 .hrim {
     object-fit: cover;
     width:200px;
-    height:150px;
-    margin:0 25px;
+    height:175px;
+    padding: 0 15px;
 }
 
 .hrcap {
-    display:flex;
-    background-color: white;
+    font-size:15px;
     text-align: center;
-    padding: 10px 0px;
+    margin: 15px;
+    background: white;
+    transform: translate(0px,-20px);
+    padding:10px;
 }
 
-/*
-justify content spc btwn
-remove margin
-
-*/
